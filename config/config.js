@@ -8,9 +8,9 @@ module.exports = {
         password: '123456'
     },
     security: {
-        secretKey: "secretKey",
-        // 过期时间 1小时
-        expiresIn: 60 * 60
+        secretKey: "tlblog_secret_key",
+        // 过期时间 6小时
+        expiresIn: 60 * 60 * 6
     },
     wx: {
         appId: '',
