@@ -10,7 +10,7 @@ module.exports = {
 
     // Paths
     assetsSubDirectory: 'static',//静态资源文件夹(一般存放css、js、image等文件)
-    assetsPublicPath: '/', '/',//根目录
+    assetsPublicPath: '/',//根目录
     proxyTable: {},//配置API代理，可利用该属性解决跨域的问题
 
     // Various Dev Server settings
