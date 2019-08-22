@@ -22,6 +22,11 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 
 
+
+
+
+
+
 ## 使用vue-cli初始化项目
 
 运行初始化命令：$ vue init webpack project_name生成初始化目录
@@ -48,7 +53,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 │  package-lock.json
 │  package.json             ---打包文件
 │  README.md
-│  
+│
 ├─build
 │      build.js
 │      check-versions.js
@@ -58,27 +63,27 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 │      webpack.base.conf.js
 │      webpack.dev.conf.js
 │      webpack.prod.conf.js
-│      
+│
 ├─config
 │      dev.env.js
 │      index.js
 │      prod.env.js
-│      
+│
 ├─node_modules                ---npm安装模块
-│                  
+│
 ├─src
 │  │  App.vue
 │  │  main.js                ---项目主文件
-│  │  
+│  │
 │  ├─assets                    ---静态文件文件夹
 │  │      logo.png
-│  │      
+│  │
 │  ├─components
 │  │      HelloWorld.vue    ---项目模板文件
-│  │      
+│  │
 │  ├─routes                    ---路由控制文件夹
 │  │      index.js            ---控制路由文件
-│  │      
+│  │
 │  └─style
 │      │  style.scss        ---样式文件
 │      └─scss                ---样式文件夹
