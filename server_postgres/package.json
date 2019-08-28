@@ -1,0 +1,33 @@
+{
+    "name": "serverpg",
+    "version": "1.0.0",
+    "description": "Node.js + Koa2 + Postgres + Vue.js 实战开发一套完整个人博客项目后台Api",
+    "main": "server.js",
+    "scripts": {
+        "dev": "nodemon server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "node.js",
+        "koa2",
+        "postgres"
+    ],
+    "author": "leechuanjun",
+    "license": "ISC",
+    "dependencies": {
+        "@koa/cors": "^3.0.0",
+        "basic-auth": "^2.0.1",
+        "bcryptjs": "^2.4.3",
+        "jsonwebtoken": "^8.5.1",
+        "koa": "^2.8.1",
+        "koa-bodyparser": "^4.2.1",
+        "koa-router": "^7.4.0",
+        "lodash": "^4.17.15",
+        "moment": "^2.24.0",
+        "pg": "^7.12.1",
+        "pg-hstore": "^2.3.3",
+        "require-directory": "^2.1.1",
+        "sequelize": "^5.16.0",
+        "validator": "^11.1.0"
+    }
+}
