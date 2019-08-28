@@ -20,7 +20,7 @@ Comments.init({
     // 评论内容
     content: Sequelize.TEXT,
     // 文章ID
-    article_id: Sequelize.STRING,
+    article_id: Sequelize.INTEGER,
     // 评论父级ID，默认为0
     parent_id: {
         type: Sequelize.INTEGER,

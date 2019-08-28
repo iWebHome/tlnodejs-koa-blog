@@ -23,7 +23,7 @@ Article.init({
     // 文章封面
     cover: Sequelize.STRING,
     // 文章分类ID
-    category_id: Sequelize.STRING,
+    category_id: Sequelize.INTEGER,
     // 文章浏览次数
     browse: {
         type: Sequelize.INTEGER,
